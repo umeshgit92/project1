@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PrimusBank Test Suite">
+ <test name="Admin Login Test">
+ <parameter name="uid" value="Admin"></parameter>
+ <parameter name="pwd" value="Admin"></parameter>
+ <classes>
+ <class name="com.primusbank.tests.AdminLoginTest"></class>
+ </classes>
+ </test>
+ <test name="Banker login Test">
+ <parameter name="bname" value="begumpet"></parameter>
+ <parameter name="uid" value="raghava"></parameter>
+ <parameter name="pwd" value="demo"></parameter>
+ <classes>
+ 
+ <class name="com.primusbank.tests.BankerLoginTest"></class>
+</classes>
+ </test>
+</suite>
